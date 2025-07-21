@@ -3,7 +3,7 @@
 
 ChatBot is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
 
-![](D:\News Research Tool (LLM)\Chatbot.png)
+![](Chatbot.png)
 
 ## Features
 
@@ -33,7 +33,7 @@ ChatBot is a user-friendly news research tool designed for effortless informatio
 4.Set up your Nvidia API key by creating a .env file in the project root and adding your API
 
 ```bash
-  NVIDIA_API_KEY=your_nvidia_api_key_here
+  NVIDIA_API_KEY = 'your_nvidia_api_key_here'
 ```
 ## Usage/Examples
 

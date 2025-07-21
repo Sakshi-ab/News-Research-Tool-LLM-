@@ -14,7 +14,7 @@ from langchain_nvidia_ai_endpoints import ChatNVIDIA
 from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env (especially openai api key)
 
-st.title("RockyBot: News Research Tool 📈")
+st.title("ChatBot: News Research Tool 📈")
 st.sidebar.title("News Article URLs")
 
 urls = []
