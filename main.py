@@ -28,7 +28,7 @@ file_path = "faiss_store_nvidia.pkl"
 main_placeholder = st.empty()
 #llm = OpenAI(temperature=0.9, max_tokens=500)
 
-llm = ChatNVIDIA(api_key="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", temperature=0.9, max_tokens=500)
+llm = ChatNVIDIA(api_key='your_api_key_here', temperature=0.9, max_tokens=500)
 
 if process_url_clicked:
     # load data
